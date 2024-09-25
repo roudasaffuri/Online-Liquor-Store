@@ -1,0 +1,128 @@
+
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  
+}
+.product {
+  background-color: lavender;
+  border: 1px solid #b47a7a;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+.product:hover {
+  transform: translateY(-5px);
+}
+.product img {
+  height: 150px; 
+  object-fit: cover; /* Crop the image to fit the container */
+}
+.product .name {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.product .price {
+  color: #888;
+  margin-bottom: 10px;
+}
+.product .add-to-cart {
+  background-color: #cab3bf;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.product .add-to-cart:disabled {
+  background-color: grey;
+  color: red;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.product .add-to-cart:hover {
+  background-color: #218838;
+}
+.product .add-to-cart:hover:disabled {
+  background-color: grey;
+}
+.add {
+  font-size: xx-large;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #774360;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr {
+  background-color: #f1f1f1;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.headerButton {
+  background: rgba(255, 255, 255, 0.5);
+  color: #333;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.headerButton:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  border-color: #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+.MainTextHome {
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: sans-serif;
+  text-align: center;
+}
+.MainTextHome h1{
+color: black;
+}

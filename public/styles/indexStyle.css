@@ -1,0 +1,159 @@
+/* General Styles */
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    background-image: url("../images/backgroundImg.webp");
+    background-size: cover; /* Adjusted for a full cover */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* Form Gap */
+.form-gap {
+    padding-top: 70px;
+}
+
+/* Container */
+.container {
+    margin-top: 30px;
+}
+
+/* Panel */
+.panel {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Panel Body */
+.panel-body {
+    padding: 20px;
+}
+
+/* Title and Icon */
+.panel-body h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.panel-body .fa-lock {
+    color: #536d89;
+}
+
+/* Form Elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input-group-addon {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 5px 0 0 5px;
+}
+
+.form-control {
+    border-radius: 0 5px 5px 0;
+    border: 1px solid #ccc;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Styles for the form inputs within .main-content */
+.main-content input[type="text"],
+.main-content input[type="password"],
+.main-content input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Adjust width as needed */
+}
+
+/* Styles for the buttons within .main-content */
+.main-content button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-right: 10px; /* Margin for spacing between buttons */
+}
+
+.main-content .login-btn {
+    background-color: #007bff;
+}
+
+.main-content .signup-btn {
+    background-color: #28a745;
+}
+
+.main-content .fp-btn {
+    background-color: #dc3545;
+}
+
+/* Optional: Styles for error message within .main-content */
+.main-content .errorMessage {
+    color: red;
+    font-weight: bold;
+}
+
+/* Messages */
+.errorMessage {
+    background: rgba(194, 216, 217, 0.8); /* Red with 80% opacity */
+    color: rgb(232, 212, 212);
+    text-align: center;
+    padding: 11px;
+    border-radius: 12px;
+    width: max-content;
+    margin: 3vh auto;
+  }
+
+.successMessage {
+    color: green;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Hidden Token */
+.hide {
+    display: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 767px) {
+    .col-md-4 {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .panel-body {
+        padding: 15px;
+    }
+}

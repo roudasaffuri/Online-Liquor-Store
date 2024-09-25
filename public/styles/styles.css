@@ -1,0 +1,119 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  background-image: url("../images/backgroundImg.webp");
+  background-size: contain; /* Adjusts the image size to fit within the container */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center center; /* Centers the image horizontally and vertically */
+}
+
+.container {
+  text-align: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px; /* Adjust width as needed */
+}
+.main-content {
+  flex: 1;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px; 
+  padding-bottom: 60px;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+}
+
+.container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.container button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.login-btn {
+  background-color: #4caf50;
+}
+
+.signup-btn {
+  background-color: #008cba;
+}
+.fp-btn {
+  background-color:rgb(155, 75, 75);
+
+}
+
+.footer {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #eba3e2;
+  color:white;
+  font-weight: bold; /* Correct way to make text bold */
+  text-align: center;
+  padding: 10px 0;
+  position: fixed; /* Ensures the footer stays at the bottom of the viewport */
+  bottom: 0;
+}
+
+
+
+
+
+
+.header {
+  flex-shrink: 0;
+  width: 100%;
+  background-color: #eba3e2;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: sticky; /* Makes the header stick to the top */
+  top: 0;
+}
+
+
+.errorMessage {
+  background: rgba(225, 203, 222, 0.8); /* Red with 80% opacity */
+  color: rgb(232, 212, 212);
+  text-align: center;
+  padding: 11px;
+  border-radius: 12px;
+  width: max-content;
+  margin: 3vh auto;
+}
+
+
+
+/* new style */
+
+
+.submitButtom {
+  background: #d0bdc8;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+}
+
+.submitButtom:hover {
+  background: #4caf50;
+  color: white;
+}

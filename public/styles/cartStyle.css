@@ -1,0 +1,85 @@
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+table,
+th,
+td {
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: #774360;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr {
+  background-color: #f1f1f1;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.button-container {
+  text-align: center; /* Center the button container */
+  margin: 20px 0;
+}
+.button-container button {
+  padding: 10px 20px;
+  background-color: #774360;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button-container button:disabled {
+  padding: 10px 20px;
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.button-container button:disabled:hover {
+  background-color: gray;
+}
+.button-container button:hover {
+  background-color: #45a049; /* Darker green */
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.headerButton {
+  background: rgba(255, 255, 255, 0.5);
+  color: #333;
+  border: 1px solid transparent;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.headerButton:hover {
+  background: rgba(255, 255, 255, 0.7);
+  color: #000;
+  border-color: #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
